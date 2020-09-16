@@ -8,7 +8,7 @@
 * Activity
 * Accuracy
 * Efficiency
-* Stress resistance
+* Stress resistance  
 * Perseverance!
 
 ## My programming skills
