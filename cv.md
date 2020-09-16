@@ -1,6 +1,6 @@
 ## Viktar Kasilkin
 
-### telephone: *+375445339728*
+### telephone: *+375445339728* 
 
 ## My personal qualities 
 * The absence of bad habits 
