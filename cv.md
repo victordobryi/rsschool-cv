@@ -22,7 +22,7 @@
 
 ## Education
 ### Electrical engineer with a degree in Automation, Telemechanics and Communication in Railway Transport
-*Belarusian State University of Transport, Homel*
+*Belarusian State University of Transport, Homel* 
 #### Graduation 2020
 
 ## Languages 
