@@ -14,7 +14,7 @@
 ## My programming skills
 * HTML
 * CSS
- * bootstrap 
+  * bootstrap 
 * JS
 * Git, Github
 * Figma, Photoshop
