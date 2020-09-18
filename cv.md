@@ -13,8 +13,8 @@
 
 ## My programming skills
 * HTML
-  * bootstrap 
 * CSS
+ * bootstrap 
 * JS
 * Git, Github
 * Figma, Photoshop
