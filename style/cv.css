@@ -133,3 +133,11 @@ body {
 .education-flex__col {
     margin-left: 20px;
 }
+
+.flex__blocks{
+    display: flex;
+}
+
+.dblock {
+    margin-top: 15px;
+}
