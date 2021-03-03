@@ -1,3 +1,4 @@
+console.log(1);
 slider({
     container: '.offer__slider',
     nextArrow: '.offer__slider-next',
@@ -11,6 +12,8 @@ slider({
 }
 
 );
+
+console.log(2);
 
 function slider({ container, slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field }) {
     // Slider
@@ -164,6 +167,9 @@ console.log(1);
         return +str.replace(/\D/g, '');
     }
 }
+
+
+console.log(3);
 
 
 
