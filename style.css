@@ -1,0 +1,28 @@
+body {
+  background: url(./cv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cv {
+  display: flex;
+}
+
+.cv-first,
+.sv-second {
+  display: flex;
+  flex-direction: column;
+}
+
+.first__avatar {
+  background: url(./ava.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.first__professional-skills {
+}
