@@ -66,10 +66,10 @@ const getRandomColor = () => {
 
 ## Courses:
 
-| Course                             |       Date        |
-| ---------------------------------- | :---------------: |
-| Rolling Scopes School JS/FE 2020Q3 | 09/2020 - 02/2021 |
-| Rolling Scopes School JS/FE 2021Q1 | 12/2021 - 07/2021 |
-| Rolling Scopes School REACT 2021Q3 | 07/2021 - 10/2021 |
+| Course                               |       Date        |
+| ------------------------------------ | :---------------: |
+| Rolling Scopes School (JS/FE 2020Q3) | 09/2020 - 02/2021 |
+| Rolling Scopes School (JS/FE 2021Q1) | 12/2021 - 07/2021 |
+| Rolling Scopes School (REACT 2021Q3) | 07/2021 - 10/2021 |
 
 ---
