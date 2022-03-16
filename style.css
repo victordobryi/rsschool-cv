@@ -2,18 +2,32 @@ body {
   background: url(./cv.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 18px;
-  color: #fff;
+  font-size: 16px;
+  color: #384157;
+  font-family: 'Montserrat';
+}
+
+._container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  color: #384157;
+  text-decoration: none;
 }
 
 .cv {
   display: flex;
+  position: relative;
 }
 
 .cv-first,
-.sv-second {
+.cv-second {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .first__title,
@@ -41,5 +55,68 @@ body {
   border-radius: 50%;
 }
 
-.first__professional-skills {
+.second__portfolio-link {
+  font-size: 18px;
+  color: #d18370;
+  border: 1px solid #384157;
+  padding: 10px 20px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+}
+
+.about__subtitle {
+  text-transform: uppercase;
+}
+
+@media (min-width: 320px) and (max-width: 769px) {
+  .cv {
+    display: flex;
+    flex-direction: column;
+  }
+  .cv-first {
+    order: 1;
+    /* flex-direction: row; */
+  }
+  .first__avatar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 520px) {
+  .cv-first {
+    flex-direction: column;
+  }
+  .first__avatar {
+    width: 100px;
+    height: 100px;
+    top: 30px;
+  }
+  .about__title {
+    font-size: 25px;
+  }
+  .about__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 390px) {
+  .about__title {
+    font-size: 20px;
+  }
+  .about__subtitle {
+    font-size: 14px;
+  }
+  .first__avatar {
+    width: 75px;
+    height: 75px;
+    top: 30px;
+  }
 }
