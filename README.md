@@ -1,2 +1,2 @@
 
-# https://victordobryi.github.io/rsschool-cv/
+# https://victordobryi.github.io/rsschool-cv/index.html
