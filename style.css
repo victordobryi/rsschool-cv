@@ -1,0 +1,148 @@
+body {
+  background: rgb(174, 205, 233);
+  font-size: 14px;
+  color: #384157;
+  font-family: 'Montserrat';
+}
+
+._container {
+  max-width: 720px;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100vh;
+}
+
+a {
+  color: #384157;
+  text-decoration: none;
+}
+
+.cv {
+  display: flex;
+  position: relative;
+  background: url(./cv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cv-first,
+.cv-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.first__title,
+.second__title {
+  font-size: 16px;
+  /* font-size: 18px; */
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.first__title {
+  color: #384157;
+}
+
+.second__title {
+  color: #d18370;
+}
+
+.first__avatar {
+  background: url(./ava.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* width: 200px;
+  height: 200px; */
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.second__portfolio-link {
+  font-size: 16px;
+  /* font-size: 18px; */
+  color: #d18370;
+  border: 1px solid #384157;
+  padding: 10px 20px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 25px;
+  /* font-size: 30px; */
+  letter-spacing: 0.1rem;
+}
+
+.about__subtitle {
+  text-transform: uppercase;
+}
+
+/* @media (min-width: 320px) and (max-width: 769px) {
+  .cv {
+    display: flex;
+    flex-direction: column;
+  }
+  .cv-first {
+    order: 1;
+  }
+  .first__avatar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+  }
+  .cv-first,
+  .cv-second {
+    height: 100%;
+  }
+} */
+
+@media (min-width: 320px) and (max-width: 600px) {
+  .cv {
+    display: flex;
+    flex-direction: column;
+  }
+  .cv-first {
+    order: 1;
+  }
+  .cv-first,
+  .cv-second {
+    height: 100%;
+  }
+  .first__avatar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+  }
+
+  .about__title {
+    font-size: 25px;
+  }
+  .about__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 410px) {
+  body {
+    font-size: 13px;
+  }
+  .about__title {
+    font-size: 20px;
+  }
+  .about__subtitle {
+    font-size: 14px;
+  }
+  .first__avatar {
+    width: 80px;
+    height: 80px;
+    top: 15px;
+  }
+}
