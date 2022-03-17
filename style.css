@@ -10,7 +10,6 @@ body {
   /* max-width: 1000px; */
   margin: 0 auto;
   padding: 0 15px;
-  height: 100vh;
 }
 
 a {
@@ -31,7 +30,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100vh;
 }
 
 .first__title,
@@ -54,9 +52,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  align-self: center;
 }
 
 .second__portfolio-link {
