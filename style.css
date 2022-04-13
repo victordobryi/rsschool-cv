@@ -31,6 +31,9 @@ a {
   display: flex;
   flex-direction: column;
 }
+.cv-second {
+  justify-content: space-around;
+}
 
 .first__title,
 .second__title {
