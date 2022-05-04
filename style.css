@@ -24,12 +24,17 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  padding: 10px;
 }
 
 .cv-first,
 .cv-second {
   display: flex;
   flex-direction: column;
+}
+
+.cv-second {
+  justify-content: space-around;
 }
 
 .first__title,
@@ -48,9 +53,9 @@ a {
 }
 
 .first__avatar {
-  background: url(./ava.jpg);
+  background: url(./ava.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 150%;
   background-position: center;
   width: 120px;
   height: 120px;
