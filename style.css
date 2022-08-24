@@ -33,8 +33,21 @@ a {
   flex-direction: column;
 }
 
+.cv-first {
+  width: 40%;
+}
+
 .cv-second {
-  justify-content: space-around;
+  width: 60%;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h3 span {
+  font-weight: normal;
+  font-style: italic;
 }
 
 .first__title,
